@@ -93,6 +93,7 @@ COUNT_OPERATIONS_BONUS = 0.03
 def main():
     balance = 0
     count_operations = 0
+    list_operations = []
 
 
     def deposit():
@@ -114,6 +115,7 @@ def main():
                 print(f'Начислен процент {COUNT_OPERATIONS_BONUS * cash} за количество совершенных операций {count_operations}.')
 
             print(f'Текущий баланс: {balance}.')
+            list_operations.append(cash)
         else:
             print(f'Сумма пополнения должна быть кратна {MULTIPLE_NUM}.')
 
@@ -148,6 +150,7 @@ def main():
                     print(f'Начислен процент {COUNT_OPERATIONS_BONUS * cash} за количество совершенных операций {count_operations}.')
 
                 print(f'Комиссия за снятие составляет {fee}.\nТекущий баланс: {balance}. ')
+                list_operations.append(-cash)
             else:
                 print(f'Недостаточно средств. \nТекущий баланс: {balance}')
 
