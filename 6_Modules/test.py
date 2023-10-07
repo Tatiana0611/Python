@@ -1,0 +1,3 @@
+from sem_module import riddle_guessing_module
+
+riddle_guessing_module.riddles_keeping()

@@ -35,9 +35,9 @@ def find_fighting_queens(coord_1, coord_2, coord_3, coord_4, coord_5, coord_6, c
 def successful_placement():
     count = 0
     while count < 4:
-        coordinates_list = [[randint(1, 8), randint(1, 8)] for _ in range(8)]
-        # coordinates_list = [[1, randint(1, 8)], [2, randint(1, 8)], [3, randint(1, 8)], [4, randint(1, 8)],
-        #                     [5, randint(1, 8)], [6, randint(1, 8)], [7, randint(1, 8)], [8, randint(1, 8)]]
+        # coordinates_list = [[randint(1, 8), randint(1, 8)] for _ in range(8)]
+        coordinates_list = [[1, randint(1, 8)], [2, randint(1, 8)], [3, randint(1, 8)], [4, randint(1, 8)],
+                            [5, randint(1, 8)], [6, randint(1, 8)], [7, randint(1, 8)], [8, randint(1, 8)]]
         if find_fighting_queens(*coordinates_list):
             print(coordinates_list)
             count += 1
@@ -46,14 +46,11 @@ def successful_placement():
 
 
 if __name__ == '__main__':
-    print(find_fighting_queens([1, 1], [7, 2], [4, 3], [6, 4],
-                               [8, 5], [2, 6], [5, 7], [3, 8]))
+    print(find_fighting_queens([6, 1], [2, 2], [7, 3], [1, 4],
+                               [4, 5], [8, 6], [5, 7], [3, 8]))
 
-    print(find_fighting_queens([3, 1], [3, 2], [1, 3], [7, 4],
-                               [2, 5], [8, 6], [6, 7], [4, 8]))
+    print(find_fighting_queens([1, 1], [2, 2], [3, 3], [4, 4],
+                               [5, 5], [6, 6], [7, 7], [8, 8]))
 
     successful_placement()
-
-
-
 
