@@ -1,0 +1,85 @@
+{
+  "0": {
+    "number": 4,
+    "attempt": 2,
+    "result": {
+      "3": "You didn't guess",
+      "2": "You didn't guess"
+    }
+  },
+  "1": {
+    "number": 77,
+    "attempt": 2,
+    "result": {
+      "8": "You didn't guess",
+      "4": "You didn't guess"
+    }
+  },
+  "2": {
+    "number": 77,
+    "attempt": 2,
+    "result": {
+      "6": "You didn't guess",
+      "77": "You guessed"
+    }
+  },
+  "3": {
+    "number": 77,
+    "attempt": 2,
+    "result": {
+      "22": "You didn't guess",
+      "44": "You didn't guess"
+    }
+  },
+  "4": {
+    "number": 67,
+    "attempt": 4,
+    "result": {
+      "87": "You didn't guess",
+      "32": "You didn't guess",
+      "54": "You didn't guess",
+      "67": "You guessed"
+    }
+  },
+  "5": {
+    "number": 67,
+    "attempt": 4,
+    "result": {
+      "43": "You didn't guess",
+      "87": "You didn't guess",
+      "233": "You didn't guess",
+      "3": "You didn't guess"
+    }
+  },
+  "6": {
+    "number": 67,
+    "attempt": 4,
+    "result": {
+      "53": "You didn't guess",
+      "43": "You didn't guess",
+      "46": "You didn't guess",
+      "786": "You didn't guess"
+    }
+  },
+  "7": {
+    "number": 4,
+    "attempt": 1,
+    "result": {
+      "5": "You didn't guess"
+    }
+  },
+  "8": {
+    "number": 4,
+    "attempt": 1,
+    "result": {
+      "6": "You didn't guess"
+    }
+  },
+  "9": {
+    "number": 4,
+    "attempt": 1,
+    "result": {
+      "4": "You guessed"
+    }
+  }
+}
